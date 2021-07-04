@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  span {
+    color: rgb(9, 150, 168);
+    font-weight: 700;
+  }
+  .secflex {
+    display: flex;
+    margin-bottom: 150px;
+  }
+  .half-width {
+    width: 50%;
+  }
+  .half-width h1 {
+    padding-bottom: 30px;
+  }
+  .half-width h3 {
+    padding-bottom: 20px;
+    font-weight: 600;
+  }
+  .content {
+    width: 80%;
+    padding: 40px 95px;
+  }
+  .img {
+    width: 100%;
+    padding-left: 100px;
+  }
+  .img2 {
+    width: 50%;
+    padding-left: 100px;
+  }
+  button {
+    background: linear-gradient(rgb(9, 150, 168), rgb(2, 65, 73));
+    border: none;
+    border-radius: 7px;
+    padding: 10px 40px;
+    margin-top: 15px;
+  }
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .content2 {
+    padding-right: 100px;
+  }
+  .back1 {
+    background-image: url(myimage/top-banner.png);
+    background-repeat: no-repeat;
+  }
+  .back2 {
+    background-image: url(myimage/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .divflex {
+    display: flex;
+  }
+  .shadow-width {
+    width: 50%;
+    box-shadow: -1px -1px 20px 10px rgba(97, 97, 97, 0.527);
+    margin-left: 80px;
+    margin-bottom: 150px;
+    margin-top: 23px;
+    padding-left: 20px;
+  }
+  .shadow1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(246, 118, 118), rgb(134, 4, 4));
+    border-image-slice: 1;
+  }
+  .shadow-width h3 {
+    color: rgb(9, 150, 168);
+    padding-bottom: 20px;
+  }
+  .shadow-width p {
+    padding-bottom: 100px;
+  }
+  h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+  .shadow2 {
+    margin-right: 80px;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(14, 5, 141), rgb(27, 154, 238));
+    border-image-slice: 1;
+  }
+  .shadowimg {
+    background-image: url(myimage/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  footer {
+    text-align: center;
+  }
+  
